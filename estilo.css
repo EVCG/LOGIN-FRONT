@@ -1,0 +1,120 @@
+body{
+    background-color: #0D1117;
+    margin: 0;
+}
+/* Logo */
+.logo img{
+    width: 11vw;
+    position: relative;
+    top: 1vw;
+    left: 43.5vw;
+}
+
+/* Login */
+
+.login{
+    display: flex;
+    justify-content: center;
+    margin-top: 2vw;
+    
+}
+
+    .container{
+        
+        height: 18vw;
+        width: 25vw ;
+        border: solid 1px rgb(31, 36, 43);
+        border-radius: 14px;
+        opacity: 1;
+        background-color: rgb(22, 27, 34);
+    }
+
+        .input{
+            display: flex;
+            flex-direction: column;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            margin: 1vw 0vw 0vw 2vw;
+        }
+
+            #email_login{
+                width: 20vw;
+                height: 20px;
+                border: grey 2px;
+                border-radius: 4px;
+            }
+
+            #senha{
+                width: 20vw;
+                height: 20px;
+                border-radius: 4px;
+                border: grey 1px;
+            }
+
+            #botao{
+                margin: 1vw 0vw 1vw 0vw;
+                width: 20.5vw;
+                height: 30px;
+            }
+
+           
+/* novo cadastro ou convidado pelo codigo */
+.novo{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20vw;
+    margin-top: 5vw;
+    padding: 2vw 0vw 0vw 3vw;
+    margin: 1vw 0vw 2.5vw 40.5vw;
+    height: 7vw;
+    width: 15vw ;
+    border-radius: 14px;
+    opacity: 1;
+    color: white;
+    background-color: rgb(22, 27, 34);
+    border: solid 1px rgb(31, 36, 43);
+}
+
+.footer{
+    border: solid 1px rgb(31, 36, 43);
+    
+    opacity: 1;
+    background-color: rgb(22, 27, 34);
+    flex-direction: column-reverse;
+    padding: 2vw;
+    margin: 2vw 0vw 0vw 0vw;
+}
+
+/*-Cadastro-*/
+
+.cadastro{
+    display: flex;
+    flex-direction: column;
+    padding:5vw 0vw 0vw 40vw ;
+   
+    
+}
+
+.cadastro input{
+    width: 20vw;
+    border-radius: 5px;
+}
+
+.cadastro p{
+    color: white;
+}
+
+.cadastro a{
+    margin: 1vw 0vw 0vw 0vw;
+}
+
+.footer_cadastro{
+    border: solid 1px rgb(31, 36, 43);
+    
+    opacity: 1;
+    background-color: rgb(22, 27, 34);
+    flex-direction: column-reverse;
+    padding: 2vw;
+    margin: 7.6vw 0vw 0vw 0vw;
+}
